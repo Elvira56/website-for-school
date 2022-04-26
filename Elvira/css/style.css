@@ -1,0 +1,146 @@
+    body {
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        font-size: 1rem;
+        background-image: url(image/classroom.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .main-container {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .container {
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+    }
+    
+    nav {
+        top: 0px;
+        position: sticky;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    ul,
+    li,
+    a {
+        text-decoration: none;
+        list-style: none;
+        display: inline-block;
+        margin-left: 5px;
+        color: rgb(139, 1, 167);
+    }
+    
+    nav a:hover {
+        color: rgb(255, 14, 14);
+        font-size: 1.1rem;
+    }
+    
+    #hero-section {
+        max-width: 100%;
+    }
+    
+    #section2 {
+        max-width: 100%;
+        position: relative;
+    }
+    
+    #section2 p {
+        color: rgb(248, 248, 250);
+    }
+    
+    #section2 h2 {
+        color: beige;
+    }
+    
+    .hero-texts {
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+    
+    #h2-text h2 {
+        background-color: aquamarine;
+        max-width: fit-content;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    
+    #p-text p {
+        background-color: rgb(205, 148, 63);
+        max-width: fit-content;
+        border-radius: 3px;
+        padding: 5px 10px;
+    }
+    
+    button {
+        background-color: red;
+        font-size: 1.2rem;
+        border: none;
+        padding: 1px;
+        font-weight: bold;
+        padding: 3px;
+        padding: 4px 15px;
+        border-radius: 3px;
+    }
+    
+    .cards {
+        position: relative;
+        top: 80px;
+        max-width: 80%;
+        max-height: 500px;
+        margin: auto;
+    }
+    
+    .form {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    
+    #submit {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        background: rgb(218, 8, 130);
+        color: inherit;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    
+    textarea {
+        width: 100%;
+    }
+    
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(18, 243, 168);
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: #0407aa;
+        color: rgb(16, 255, 164);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
